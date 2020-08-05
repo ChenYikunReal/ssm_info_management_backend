@@ -8,10 +8,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @MapperScan(basePackages = "com.train.info.dao")
 @EnableSwagger2
-public class StudentInfoApplication {
+public class StudentApplication {
 
     public static void main( String[] args ) {
-        SpringApplication.run(StudentInfoApplication.class, args);
+        SpringApplication.run(StudentApplication.class, args);
     }
 
 }
