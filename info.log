@@ -398,3 +398,453 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.faster
 2020-08-05 15:24:41.391  INFO 9512 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
 2020-08-05 15:24:41.423  INFO 9512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
 2020-08-05 15:24:41.425  INFO 9512 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 4.01 seconds (JVM running for 5.242)
+2020-08-05 20:00:52.169  INFO 9784 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 9784 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 20:00:52.197  INFO 9784 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 20:00:52.387  INFO 9784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 20:00:52.387  INFO 9784 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 20:00:54.260  INFO 9784 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5cd2cf10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 20:00:54.837  INFO 9784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 20:00:54.855  INFO 9784 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 20:00:54.855  INFO 9784 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 20:00:54.861  INFO 9784 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 20:00:54.861  INFO 9784 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 20:00:54.861  INFO 9784 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 20:00:54.889  INFO 9784 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 20:00:54.984  INFO 9784 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 20:00:54.984  INFO 9784 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2596 ms
+2020-08-05 20:00:55.916  INFO 9784 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 20:00:55.988  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 20:00:56.167  INFO 9784 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 20:00:56.184  INFO 9784 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 20:00:56.194  INFO 9784 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 20:00:56.462  INFO 9784 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 20:00:56.494  INFO 9784 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 20:00:56.497  INFO 9784 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 4.989 seconds (JVM running for 6.771)
+2020-08-05 20:02:06.860  INFO 9784 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 20:02:06.860  INFO 9784 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 20:02:06.908  INFO 9784 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 47 ms
+2020-08-05 20:02:07.100  WARN 9784 --- [http-nio-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentGradeController.getInfo(java.lang.String)]
+2020-08-05 20:04:41.399  WARN 9784 --- [http-nio-8888-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentGradeController.getInfo(java.lang.String)]
+2020-08-05 20:15:35.731  WARN 9784 --- [http-nio-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentGradeController.getInfo(java.lang.String)]
+2020-08-05 20:31:17.726  WARN 9784 --- [http-nio-8888-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentGradeController.getInfo(java.lang.String)]
+2020-08-05 21:30:18.160  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 13188 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:30:18.167  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:30:18.405  INFO 13188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 21:30:18.407  INFO 13188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 21:30:20.534  INFO 13188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36d44dbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:30:20.916  INFO 13188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:30:20.934  INFO 13188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:30:20.934  INFO 13188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:30:20.940  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:30:20.940  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:30:20.940  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:30:20.975  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:30:21.115  INFO 13188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:30:21.116  INFO 13188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2709 ms
+2020-08-05 21:30:21.996  INFO 13188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:30:22.046  INFO 13188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:30:22.190  INFO 13188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:30:22.209  INFO 13188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:30:22.219  INFO 13188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:30:22.349  INFO 13188 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:30:22.405  INFO 13188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:30:22.407  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 5.114 seconds (JVM running for 7.014)
+2020-08-05 21:30:51.526  INFO 13188 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:30:51.526  INFO 13188 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:30:51.534  INFO 13188 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-05 21:30:51.573  WARN 13188 --- [http-nio-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentGradeController.getInfo(java.lang.String)]
+2020-08-05 21:31:15.385  WARN 13188 --- [http-nio-8888-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentGradeController.getInfo(java.lang.String)]
+2020-08-05 21:31:30.120  INFO 13188 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:31:30.542  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 13188 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:31:30.542  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:31:30.802  INFO 13188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36d44dbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:31:30.874  INFO 13188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:31:30.874  INFO 13188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:31:30.875  INFO 13188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:31:30.875  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:31:30.875  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:31:30.875  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:31:30.875  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:31:30.901  INFO 13188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:31:30.902  INFO 13188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 358 ms
+2020-08-05 21:31:31.050  INFO 13188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:31:31.059  INFO 13188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:31:31.105  INFO 13188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:31:31.105  INFO 13188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:31:31.107  INFO 13188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:31:31.117  INFO 13188 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:31:31.123  INFO 13188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:31:31.124  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 0.598 seconds (JVM running for 75.73)
+2020-08-05 21:31:31.125  INFO 13188 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 21:33:03.230  INFO 13188 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:33:03.644  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 13188 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:33:03.644  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:33:03.896  INFO 13188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$36d44dbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:33:03.968  INFO 13188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:33:03.968  INFO 13188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:33:03.969  INFO 13188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:33:03.969  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:33:03.969  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:33:03.969  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:33:03.969  INFO 13188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:33:04.061  INFO 13188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:33:04.061  INFO 13188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 416 ms
+2020-08-05 21:33:04.222  INFO 13188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:33:04.230  INFO 13188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:33:04.271  INFO 13188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:33:04.272  INFO 13188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:33:04.274  INFO 13188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:33:04.283  INFO 13188 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:33:04.288  INFO 13188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:33:04.289  INFO 13188 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 0.662 seconds (JVM running for 168.895)
+2020-08-05 21:33:04.290  INFO 13188 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 21:33:10.974  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 3188 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:33:10.976  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:33:11.018  INFO 3188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 21:33:11.018  INFO 3188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 21:33:11.864  INFO 3188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6ad8c8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:33:12.085  INFO 3188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:33:12.101  INFO 3188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:33:12.101  INFO 3188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:33:12.105  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:33:12.106  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:33:12.106  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:33:12.108  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:33:12.182  INFO 3188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:33:12.182  INFO 3188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1163 ms
+2020-08-05 21:33:12.721  INFO 3188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:33:12.753  INFO 3188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:33:12.864  INFO 3188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:33:12.873  INFO 3188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:33:12.881  INFO 3188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:33:12.962  INFO 3188 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:33:12.992  INFO 3188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:33:12.994  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 2.326 seconds (JVM running for 3.237)
+2020-08-05 21:33:26.994  INFO 3188 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:33:26.995  INFO 3188 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:33:27.002  INFO 3188 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-05 21:33:27.033  INFO 3188 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:33:27.173  INFO 3188 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-05 21:33:28.607  INFO 3188 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-05 21:33:52.542  INFO 3188 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:33:52.542  INFO 3188 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-05 21:33:52.550  INFO 3188 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-05 21:33:52.980  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 3188 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:33:52.981  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:33:53.260  INFO 3188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6ad8c8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:33:53.336  INFO 3188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:33:53.336  INFO 3188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:33:53.337  INFO 3188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:33:53.337  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:33:53.337  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:33:53.337  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:33:53.337  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:33:53.362  INFO 3188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:33:53.362  INFO 3188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 380 ms
+2020-08-05 21:33:53.519  INFO 3188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:33:53.528  INFO 3188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:33:53.579  INFO 3188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:33:53.580  INFO 3188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:33:53.582  INFO 3188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:33:53.591  INFO 3188 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:33:53.597  INFO 3188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:33:53.597  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 0.633 seconds (JVM running for 43.84)
+2020-08-05 21:33:53.599  INFO 3188 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 21:34:02.028  INFO 3188 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:34:02.595  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 3188 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:34:02.595  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:34:02.872  INFO 3188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6ad8c8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:34:02.955  INFO 3188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:34:02.956  INFO 3188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:34:02.956  INFO 3188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:34:02.956  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:34:02.956  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:34:02.957  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:34:02.957  INFO 3188 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:34:02.981  INFO 3188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:34:02.981  INFO 3188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 384 ms
+2020-08-05 21:34:03.124  INFO 3188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:34:03.133  INFO 3188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:34:03.180  INFO 3188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:34:03.180  INFO 3188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:34:03.182  INFO 3188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:34:03.191  INFO 3188 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:34:03.196  INFO 3188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:34:03.196  INFO 3188 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 0.617 seconds (JVM running for 53.44)
+2020-08-05 21:34:03.198  INFO 3188 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 21:34:07.349  INFO 3188 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:34:07.350  INFO 3188 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:34:07.365  INFO 3188 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-08-05 21:34:07.368  INFO 3188 --- [http-nio-8888-exec-2] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:34:07.372  INFO 3188 --- [http-nio-8888-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-05 21:34:07.389  INFO 3188 --- [http-nio-8888-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-05 21:34:20.905  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 13872 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:34:20.908  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:34:20.960  INFO 13872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 21:34:20.960  INFO 13872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 21:34:21.974  INFO 13872 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b903a461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:34:22.222  INFO 13872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:34:22.237  INFO 13872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:34:22.238  INFO 13872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:34:22.242  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:34:22.242  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:34:22.242  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:34:22.245  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:34:22.327  INFO 13872 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:34:22.327  INFO 13872 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1366 ms
+2020-08-05 21:34:22.884  INFO 13872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:34:22.917  INFO 13872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:34:23.028  INFO 13872 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:34:23.037  INFO 13872 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:34:23.044  INFO 13872 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:34:23.123  INFO 13872 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:34:23.150  INFO 13872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:34:23.152  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 2.499 seconds (JVM running for 3.412)
+2020-08-05 21:34:30.391  INFO 13872 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:34:30.392  INFO 13872 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:34:30.400  INFO 13872 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-05 21:34:30.437  INFO 13872 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:34:30.492  INFO 13872 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-05 21:34:31.128  INFO 13872 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-05 21:34:37.530  INFO 13872 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:34:37.532  INFO 13872 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-05 21:34:37.536  INFO 13872 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-05 21:34:38.009  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 13872 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:34:38.010  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:34:38.300  INFO 13872 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b903a461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:34:38.407  INFO 13872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:34:38.409  INFO 13872 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:34:38.409  INFO 13872 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:34:38.409  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:34:38.410  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:34:38.410  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:34:38.412  INFO 13872 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:34:38.468  INFO 13872 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:34:38.468  INFO 13872 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 457 ms
+2020-08-05 21:34:38.684  INFO 13872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:34:38.694  INFO 13872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:34:38.743  INFO 13872 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:34:38.743  INFO 13872 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:34:38.745  INFO 13872 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:34:38.756  INFO 13872 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:34:38.762  INFO 13872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:34:38.763  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 0.771 seconds (JVM running for 19.023)
+2020-08-05 21:34:38.765  INFO 13872 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 21:35:47.863  INFO 13872 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:35:47.865  INFO 13872 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:35:47.879  INFO 13872 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-08-05 21:35:47.881  INFO 13872 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:35:47.886  INFO 13872 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-05 21:35:47.905  INFO 13872 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-05 21:38:21.292  INFO 13872 --- [http-nio-8888-exec-3] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:40:24.358  INFO 13872 --- [http-nio-8888-exec-5] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:41:30.153  INFO 13872 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:41:30.155  INFO 13872 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-08-05 21:41:30.166  INFO 13872 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-08-05 21:41:30.717  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 13872 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:41:30.717  INFO 13872 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:41:38.908  INFO 17220 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 17220 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:41:38.911  INFO 17220 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:41:38.982  INFO 17220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 21:41:38.982  INFO 17220 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 21:41:40.427  INFO 17220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$770bb5b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:41:40.725  INFO 17220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:41:40.742  INFO 17220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:41:40.742  INFO 17220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:41:40.748  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:41:40.748  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:41:40.749  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:41:40.753  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:41:40.857  INFO 17220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:41:40.857  INFO 17220 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1875 ms
+2020-08-05 21:41:41.607  INFO 17220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:41:41.647  INFO 17220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:41:41.791  INFO 17220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:41:41.806  INFO 17220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:41:41.820  INFO 17220 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:41:41.958  INFO 17220 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:41:41.995  INFO 17220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:41:41.997  INFO 17220 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 3.486 seconds (JVM running for 4.64)
+2020-08-05 21:41:52.060  INFO 17220 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:41:52.060  INFO 17220 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:41:52.066  INFO 17220 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-08-05 21:41:52.105  INFO 17220 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:41:52.148  INFO 17220 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-05 21:41:52.808  INFO 17220 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-05 21:47:39.077  INFO 17220 --- [http-nio-8888-exec-3] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:48:58.293  INFO 17220 --- [http-nio-8888-exec-5] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:52:17.973  INFO 17220 --- [http-nio-8888-exec-7] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:53:17.488  INFO 17220 --- [http-nio-8888-exec-8] c.train.info.web.StudentGradeController  : 获取id为 1 的学生成绩
+2020-08-05 21:53:30.519  INFO 17220 --- [http-nio-8888-exec-9] c.train.info.web.StudentGradeController  : 获取id为 8 的学生成绩
+2020-08-05 21:55:20.375  INFO 17220 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:55:20.378  INFO 17220 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-05 21:55:20.442  INFO 17220 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-05 21:55:21.068  INFO 17220 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 17220 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:55:21.068  INFO 17220 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:55:21.676  INFO 17220 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$770bb5b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:55:21.803  INFO 17220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:55:21.804  INFO 17220 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:55:21.804  INFO 17220 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:55:21.804  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:55:21.805  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:55:21.805  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:55:21.805  INFO 17220 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:55:21.894  INFO 17220 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:55:21.894  INFO 17220 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 823 ms
+2020-08-05 21:55:22.161  INFO 17220 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:55:22.176  INFO 17220 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:55:22.236  INFO 17220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:55:22.237  INFO 17220 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:55:22.240  INFO 17220 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:55:22.253  INFO 17220 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:55:22.258  INFO 17220 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:55:22.259  INFO 17220 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 1.242 seconds (JVM running for 824.902)
+2020-08-05 21:55:22.261  INFO 17220 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 21:55:28.508  INFO 17220 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:55:28.509  INFO 17220 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:55:28.520  INFO 17220 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-08-05 21:55:28.522  INFO 17220 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:55:28.528  INFO 17220 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-08-05 21:55:28.670  INFO 17220 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-08-05 21:55:47.619  INFO 16612 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 16612 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 21:55:47.621  INFO 16612 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 21:55:47.675  INFO 16612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 21:55:47.675  INFO 16612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 21:55:48.869  INFO 16612 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aca4e42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 21:55:49.173  INFO 16612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 21:55:49.187  INFO 16612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 21:55:49.188  INFO 16612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 21:55:49.192  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 21:55:49.192  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 21:55:49.192  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 21:55:49.195  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 21:55:49.276  INFO 16612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 21:55:49.276  INFO 16612 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1600 ms
+2020-08-05 21:55:49.804  INFO 16612 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 21:55:49.838  INFO 16612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 21:55:49.961  INFO 16612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 21:55:49.971  INFO 16612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 21:55:49.979  INFO 16612 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 21:55:50.063  INFO 16612 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 21:55:50.093  INFO 16612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 21:55:50.096  INFO 16612 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 2.807 seconds (JVM running for 4.032)
+2020-08-05 21:55:57.169  INFO 16612 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 21:55:57.169  INFO 16612 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 21:55:57.176  INFO 16612 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-05 21:55:57.217  INFO 16612 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 21:55:57.281  INFO 16612 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-05 21:55:58.742  INFO 16612 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-05 22:00:26.624  INFO 16612 --- [http-nio-8888-exec-3] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 22:11:53.705  INFO 16612 --- [http-nio-8888-exec-5] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 22:12:14.650  INFO 16612 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:12:14.654  INFO 16612 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-05 22:12:14.787  INFO 16612 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-05 22:12:15.555  INFO 16612 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 16612 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 22:12:15.555  INFO 16612 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 22:12:16.117  INFO 16612 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aca4e42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 22:12:16.273  INFO 16612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 22:12:16.274  INFO 16612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 22:12:16.274  INFO 16612 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 22:12:16.274  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 22:12:16.274  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 22:12:16.274  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 22:12:16.323  INFO 16612 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 22:12:16.409  INFO 16612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 22:12:16.409  INFO 16612 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 843 ms
+2020-08-05 22:12:16.625  INFO 16612 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:12:16.636  INFO 16612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 22:12:16.692  INFO 16612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 22:12:16.693  INFO 16612 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 22:12:16.696  INFO 16612 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 22:12:16.707  INFO 16612 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 22:12:16.713  INFO 16612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 22:12:16.713  INFO 16612 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 1.233 seconds (JVM running for 990.649)
+2020-08-05 22:12:16.715  INFO 16612 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 22:14:33.780  INFO 10668 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 10668 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 22:14:33.788  INFO 10668 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 22:14:33.915  INFO 10668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 22:14:33.916  INFO 10668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 22:14:37.608  INFO 10668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$904c3858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 22:14:38.322  INFO 10668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 22:14:38.376  INFO 10668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 22:14:38.377  INFO 10668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 22:14:38.393  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 22:14:38.394  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 22:14:38.395  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 22:14:38.406  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 22:14:38.664  INFO 10668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 22:14:38.665  INFO 10668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4748 ms
+2020-08-05 22:14:40.405  INFO 10668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:14:40.532  INFO 10668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 22:14:40.963  INFO 10668 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 22:14:40.996  INFO 10668 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 22:14:41.039  INFO 10668 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 22:14:41.441  INFO 10668 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 22:14:41.532  INFO 10668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 22:14:41.536  INFO 10668 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 8.363 seconds (JVM running for 10.743)
+2020-08-05 22:15:21.114  INFO 10668 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 22:15:21.115  INFO 10668 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 22:15:21.126  INFO 10668 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-08-05 22:15:21.156  INFO 10668 --- [http-nio-8888-exec-1] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 22:15:21.202  INFO 10668 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-05 22:15:22.245  INFO 10668 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-05 22:15:30.473  WARN 10668 --- [http-nio-8888-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentInfoController.getInfo(java.lang.String)]
+2020-08-05 22:15:37.430  WARN 10668 --- [http-nio-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentInfoController.getInfo(java.lang.String)]
+2020-08-05 22:15:39.434  INFO 10668 --- [http-nio-8888-exec-4] c.train.info.web.StudentGradeController  : 获取id为 全部 的学生成绩
+2020-08-05 22:15:43.217  WARN 10668 --- [http-nio-8888-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentInfoController.getInfo(java.lang.String)]
+2020-08-05 22:15:58.271  INFO 10668 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:15:58.272  INFO 10668 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-05 22:15:58.279  INFO 10668 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-05 22:15:58.830  INFO 10668 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 10668 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 22:15:58.831  INFO 10668 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 22:15:59.129  INFO 10668 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$904c3858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 22:15:59.208  INFO 10668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 22:15:59.209  INFO 10668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 22:15:59.209  INFO 10668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 22:15:59.210  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 22:15:59.210  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 22:15:59.210  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 22:15:59.210  INFO 10668 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 22:15:59.234  INFO 10668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 22:15:59.234  INFO 10668 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 402 ms
+2020-08-05 22:15:59.395  INFO 10668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:15:59.407  INFO 10668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 22:15:59.456  INFO 10668 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 22:15:59.457  INFO 10668 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 22:15:59.458  INFO 10668 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 22:15:59.469  INFO 10668 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 22:15:59.474  INFO 10668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 22:15:59.475  INFO 10668 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 0.662 seconds (JVM running for 88.682)
+2020-08-05 22:15:59.477  INFO 10668 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-05 22:16:05.812  INFO 10668 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 22:16:05.814  INFO 10668 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 22:16:05.821  INFO 10668 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-08-05 22:16:05.822  WARN 10668 --- [http-nio-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.List<com.alibaba.fastjson.JSONObject> com.train.info.web.StudentInfoController.getInfo(java.lang.String)]
+2020-08-05 22:16:17.961  INFO 2296 --- [restartedMain] com.train.info.StudentApplication        : Starting StudentApplication on LAPTOP-JO1N8FP0 with PID 2296 (D:\IDEA\ssm_student_info\target\classes started by yk in D:\IDEA\ssm_student_info)
+2020-08-05 22:16:17.963  INFO 2296 --- [restartedMain] com.train.info.StudentApplication        : No active profile set, falling back to default profiles: default
+2020-08-05 22:16:18.004  INFO 2296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-05 22:16:18.004  INFO 2296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-05 22:16:18.944  INFO 2296 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$576f9532] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-05 22:16:19.190  INFO 2296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-08-05 22:16:19.204  INFO 2296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-05 22:16:19.205  INFO 2296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-05 22:16:19.209  INFO 2296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-08-05 22:16:19.209  INFO 2296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-05 22:16:19.209  INFO 2296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-05 22:16:19.212  INFO 2296 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-08-05 22:16:19.285  INFO 2296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-05 22:16:19.285  INFO 2296 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1281 ms
+2020-08-05 22:16:19.917  INFO 2296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-05 22:16:19.950  INFO 2296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-05 22:16:20.066  INFO 2296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-05 22:16:20.076  INFO 2296 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-05 22:16:20.084  INFO 2296 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-05 22:16:20.161  INFO 2296 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2020-08-05 22:16:20.188  INFO 2296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-08-05 22:16:20.190  INFO 2296 --- [restartedMain] com.train.info.StudentApplication        : Started StudentApplication in 2.499 seconds (JVM running for 3.454)
+2020-08-05 22:16:30.546  INFO 2296 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-05 22:16:30.546  INFO 2296 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-05 22:16:30.554  INFO 2296 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-08-05 22:16:30.576  INFO 2296 --- [http-nio-8888-exec-1] c.train.info.web.StudentInfoController   : 获取id为 全部 的学生信息
+2020-08-05 22:16:30.617  INFO 2296 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-05 22:16:31.167  INFO 2296 --- [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

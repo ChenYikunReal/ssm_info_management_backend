@@ -23,7 +23,7 @@ public class StudentInfoController {
 
     @RequestMapping(value = "/getInfo", method = RequestMethod.GET)
     @ResponseBody
-    public List<JSONObject> getInfo(@RequestBody String id) {
+    public List<JSONObject> getInfo(String id) {
         logger.info("获取id为 " + ("".equals(id) ? "全部": id) + " 的学生信息");
         return management.getInfo(id);
     }
