@@ -5,4 +5,4 @@
 
 ## 项目其余部分Github地址
 - [前端](../../../vue-info-management-front)
-- [数据库](../../../stored-procedure-training)
+- [数据库](../../../mysql-stored-procedure-training)
